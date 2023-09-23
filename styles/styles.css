@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+
+    background-color: black;
+    color: #F6F6F6;
+}
+
+.formato-de-escrita {
+    color: #22D4FD;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+span {
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
+
+a {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal-conteudo {
+    width: 615px;
+}
+
+
+.conteudo-formulario {
+    background-color: yellow;
+    text-align: center;
+}
+
+.conteudo-resultado {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+.conteudo-erro {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    background-color: blueviolet;
+    color: orange;
+    text-align: center;
+}

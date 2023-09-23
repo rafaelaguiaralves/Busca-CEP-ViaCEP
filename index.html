@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title> Buscar CEP </title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main class="principal">
+        <section class="principal-conteudo">
+            <form name="formulario">
+
+                <h1 class="titulo"> Buscador de CEP </h1>
+                <p> Abaixo, digite o CEP com <strong class="formato-de-escrita"> somente números </strong> </p>
+
+                <div class="conteudo-formulario">
+                    <label for="cep"> CEP</label> <br>
+                    <input required id="cep" name="cep" placeholder="Digite o CEP" maxlength="8">
+                </div>
+
+                <div class="conteudo-resultado" id="conteudo"> </div>
+                <div class="conteudo-erro" id="concluido"> </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="js/consulta.js"></script>
+</body>
+
+</html>
